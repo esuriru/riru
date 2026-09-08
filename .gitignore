@@ -3,3 +3,5 @@ build/
 
 # xmake
 .xmake/
+
+compile_commands.json
