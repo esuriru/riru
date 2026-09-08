@@ -4,4 +4,7 @@ build/
 # xmake
 .xmake/
 
+# clangd cache
+.cache/
+
 compile_commands.json
