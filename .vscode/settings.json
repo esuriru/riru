@@ -1,0 +1,5 @@
+{
+    "xmake.autoGenerateCompileCommands": "onFileChange",
+    "xmake.compileCommandsBackend": "clangd",
+    "xmake.compileCommandsDirectory": "build",
+}
