@@ -1,6 +1,11 @@
 #include <iostream>
 
+#include "riru.hpp"
+
 int main()
 {
-    std::cout << "riruka started\n";
+    riru::core::app app;
+
+    app.init();
+    app.run();
 }
