@@ -1,1 +1,5 @@
+# build folders
 build/
+
+# xmake
+.xmake/
