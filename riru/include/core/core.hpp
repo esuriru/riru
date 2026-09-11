@@ -10,5 +10,6 @@ namespace riru
     enum class result : uint8_t
     {
         success = 0,
+        failure,
     };
 };
