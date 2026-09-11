@@ -6,6 +6,10 @@ int main()
 {
     riru::core::app app;
 
-    app.init();
+    auto init_result = app.init();
+    if (init_result != riru::result::success)
+    {
+        return 1;
+    }
     app.run();
 }
