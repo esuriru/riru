@@ -5,3 +5,5 @@ add_rules("mode.debug")
 
 includes("riru")
 includes("riruka")
+
+set_toolchains("llvm")
