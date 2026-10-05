@@ -1,7 +1,10 @@
 #pragma once
 
+#include <memory>
+
 #include "core/core.hpp"
 #include "core/window.hpp"
+#include "gfx/ogl_ctx.hpp"
 
 namespace riru::core
 {
@@ -26,5 +29,8 @@ namespace riru::core
         window* window;
 
         bool is_running;
+
+        // Graphics 
+        std::unique_ptr<gfx::ogl_ctx> gfx_ctx;
     };
 }

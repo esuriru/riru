@@ -6,6 +6,7 @@ target("riru")
 
     add_includedirs("include", { public = true })
     add_files("src/core/*.cpp")
+    add_files("src/gfx/*.cpp")
 
     add_packages("glad", { public = true })
     add_defines("GLFW_INCLUDE_NONE")

@@ -51,9 +51,14 @@ namespace riru::core
         is_running = true;
         std::cout << "riru app is running" << std::endl;
 
+        gfx_ctx->make_current(*window);
+
         while (is_running)
         {
             window->update();
+
+            gfx_ctx->begin_frame();
+
         }
 
         return riru::result::success;

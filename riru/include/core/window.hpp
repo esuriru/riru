@@ -24,6 +24,7 @@ namespace riru::core
 
         result init();
         void update();
+        GLFWwindow* get_native_handle() const;
         
     protected:
         GLFWwindow* handle;

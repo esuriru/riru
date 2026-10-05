@@ -77,6 +77,11 @@ namespace riru::core
         glfwPollEvents();
     }
 
+    GLFWwindow* window::get_native_handle() const
+    {
+        return handle;
+    }
+
     void window::on_resize(GLFWwindow* handle, int width, int height)
     {
         auto wrapper = reinterpret_cast<riru::core::window*>(
